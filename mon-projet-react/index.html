@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Joseph Mbaye</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-gray-800 p-4 shadow-lg flex justify-between items-center">
+        <h1 class="text-xl font-bold">Joseph Mbaye - Ingénieur en IA</h1>
+        <div class="flex items-center space-x-4">
+            <a href="#accueil" class="hover:text-blue-400 transition">Accueil</a>
+            <a href="#apropos" class="hover:text-blue-400 transition">À propos</a>
+            <a href="#competences" class="hover:text-blue-400 transition">Compétences</a>
+            <a href="#projets" class="hover:text-blue-400 transition">Projets</a>
+            <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            <!-- Bouton pour télécharger le CV déplacé en haut -->
+            <a href="./Mon CV.pdf" download class="bg-green-500 hover:bg-green-700 px-6 py-2 rounded-lg">
+                Télécharger mon CV
+            </a>
+        </div>
+    </nav>
+    
+    <!-- Accueil -->
+    <section id="accueil" class="h-screen flex items-center justify-center text-center">
+        <div>
+            <!-- Votre photo -->
+            <img src="jo.jpg" alt="Joseph Mbaye" class="w-32 h-32 mx-auto rounded-full mb-4">
+            <h2 class="text-4xl font-bold">Bienvenue sur mon portfolio</h2>
+            <p class="mt-4 text-gray-300">Je suis Joseph Mbaye, ingénieur en intelligence artificielle passionné par le développement logiciel et l’innovation technologique. Actuellement en Licence 2 en Génie Informatique à l'Université UNIPRO, je possède une solide formation académique et une curiosité insatiable pour les domaines de l’IA et du développement d’applications.</p>
+        </div>
+    </section>
+    
+    <!-- À propos -->
+    <section id="apropos" class="p-8 text-center">
+        <h2 class="text-3xl font-semibold">À propos de moi</h2>
+        <p class="mt-4 text-gray-400">Je suis Joseph Mbaye, ingénieur en intelligence artificielle passionné par les technologies modernes et leur impact sur notre quotidien. Curieux et toujours en quête d'innovation, j'explore en profondeur les domaines de l'apprentissage automatique, du traitement du langage naturel et de la vision par ordinateur. Mon objectif est de concevoir des solutions intelligentes qui optimisent les processus et facilitent la vie des utilisateurs.
+
+            En parallèle, je développe des applications web et mobiles en utilisant des technologies de pointe comme React, NestJS et MySQL, afin de créer des systèmes performants et ergonomiques. Actuellement, je travaille sur un projet de gestion des rendez-vous médicaux, ainsi qu'un système de gestion de bibliothèque en Java avec une interface graphique moderne et intuitive.
+            
+            En dehors du développement et de l'intelligence artificielle, je m'intéresse également à l'écriture. Je travaille sur un livre intitulé LA TRAHISON, une fiction psychologique inspirée de mes propres expériences, qui plonge le lecteur dans une histoire marquée par la douleur, la résilience et un twist final marquant.
+            
+            Entre entrepreneuriat, technologie et créativité, je m'efforce d'explorer de nouvelles perspectives et d'innover en permanence.</p>
+    </section>
+    
+    <!-- Compétences -->
+    <section id="competences" class="p-8 text-center">
+        <h2 class="text-3xl font-semibold">Mes Compétences</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>HTML/CSS</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>Python</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>MySQL</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>Java</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>PHP</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 transition">
+                <p>UML</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-blue-500 h-2 rounded" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projets -->
+    <section id="projets" class="p-8 text-center">
+        <h2 class="text-3xl font-semibold">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-green-600 transition">
+                <p>Recensement de la population du Sénégal (MySQL)</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-green-500 h-2 rounded" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-green-600 transition">
+                <p>Gestion des étudiants (Java)</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-green-500 h-2 rounded" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-green-600 transition">
+                <p>Calculatrice (JavaScript)</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-green-500 h-2 rounded" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-green-600 transition">
+                <p>Stationnement (UML)</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-green-500 h-2 rounded" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-xl shadow-lg hover:bg-green-600 transition">
+                <p>Gestion d'une bibliothèque (Java)</p>
+                <div class="w-full bg-gray-700 h-2 rounded mt-2">
+                    <div class="bg-green-500 h-2 rounded" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact" class="p-8 text-center">
+        <h2 class="text-3xl font-semibold">Me Contacter</h2>
+        <!-- Formulaire de contact -->
+        <form class="mt-4 max-w-lg mx-auto">
+            <div class="mb-4">
+                <input type="text" placeholder="Votre nom" class="w-full p-2 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <input type="email" placeholder="Votre email" class="w-full p-2 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="mb-4">
+                <textarea placeholder="Votre message" class="w-full p-2 rounded-lg bg-gray-800 text-white border border-gray-700 focus:outline-none focus:border-blue-500" rows="4"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded-lg">Envoyer</button>
+        </form>
+        
+        <!-- Liens des réseaux sociaux -->
+        <div class="mt-8 flex justify-center space-x-6">
+            <a href="https://wa.me/774998392" target="_blank" class="text-green-400 hover:text-green-300">
+                <i class="fab fa-whatsapp text-2xl"></i>
+            </a>
+            <a href="https://instagram.com/joseph_mbaye1" target="_blank" class="text-pink-400 hover:text-pink-300">
+                <i class="fab fa-instagram text-2xl"></i>
+            </a>
+            <a href="https://twitter.com/JosephMbay77777" target="_blank" class="text-blue-400 hover:text-blue-300">
+                <i class="fab fa-twitter text-2xl"></i>
+            </a>
+            <a href="https://linkedin.com/in/Joseph Mbaye" target="_blank" class="text-blue-700 hover:text-blue-600">
+                <i class="fab fa-linkedin text-2xl"></i>
+            </a>
+            <a href="https://facebook.com/Joseph Mbaye" target="_blank" class="text-blue-600 hover:text-blue-500">
+                <i class="fab fa-facebook text-2xl"></i>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
